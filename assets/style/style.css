@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.125rem;
+	height: 100vh;
+	display: -moz-grid;
+	display: -ms-grid;
+	display: grid;
+
+	place-items: center;
+
+	background-color: #000000;
+	color: #e8e8e2;
+}
